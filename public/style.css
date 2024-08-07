@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color: rgb(114, 194, 197);
+}
+body {
+  background-color: rgba(119, 203, 206, 0.541);
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 80px;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(114, 194, 197);
+  color: white;
+  font-size: 3rem;
+  padding: 10px 20px;
+}
+.dictionary {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.term {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+}
+.contents {
+}
+.emoji {
+  font-size: 4rem;
+}
+.name {
+  padding: 10px 0px;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--color);
+}
+.desc {
+  color: rgba(0, 0, 0, 0.644);
+  font-size: 1.2rem;
+  padding: 8px;
+}
+
+@media (max-width: 1040px) {
+  .dictionary {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 424px) {
+  .dictionary {
+  }
+  .term {
+    width: 300px;
+    height: 320px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+  }
+}

@@ -21,5 +21,4 @@ const emojipedia = [
     boundlessly. The emoji version of "rofl". Stands for "rolling on the floor, laughing".`,
   },
 ];
-
 export default emojipedia;

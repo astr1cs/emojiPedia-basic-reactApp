@@ -27,6 +27,7 @@ h1 {
   gap: 60px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .term {
   width: 400px;
